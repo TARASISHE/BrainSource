@@ -1,0 +1,1084 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+.footer {
+    background-color: #111111;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.footer__container {
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+
+}
+
+.footer__services {
+    margin-left: 50px;
+    margin-top: 75px;
+}
+
+.footer__title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #fff;
+}
+
+.footer__list {
+    max-width: 200px;
+}
+
+.footer__link {
+    padding: 5px 0px;
+}
+
+.footer__link a {
+    color: #B3B3B3;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+
+}
+
+
+.footer__notitle {
+    margin-top: 115px;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.footer__about {
+    margin-top: 75px;
+}
+
+.footer__reputation {
+    margin-top: 75px;
+    margin-left: 60px;
+}
+
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 80px;
+    width: 200px;
+}
+
+.contacts__title {
+    font-size: 18px;
+    color: #fff;
+}
+
+.contacts_row {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__phone {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    background-image: url(../img/Call.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+    margin-bottom: 18px;
+    margin-top: 16px;
+
+}
+
+.contacts__email {
+    color: #fff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    background-image: url(../img/Message.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+}
+
+.contacts__img {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.contacts__img img {
+    margin: 0px 5px;
+}
+
+
+.footer__right {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 72px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.footer__firstrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer__secondrow {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media screen and (max-width:1280px) {
+    .footer {
+        background-color: #111111;
+        width: 100%;
+        height: 100%;
+        margin-top: 80px;
+    }
+
+    .footer__container {
+        margin: 0 auto;
+        max-width: 1110px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+
+    }
+
+    .footer__services {
+        margin-left: 50px;
+        margin-top: 75px;
+    }
+
+    .footer__title {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        color: #fff;
+    }
+
+    .footer__list {
+        max-width: 200px;
+    }
+
+    .footer__link {
+        padding: 5px 0px;
+    }
+
+    .footer__link a {
+        color: #B3B3B3;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+
+    }
+
+
+    .footer__notitle {
+        margin-top: 115px;
+        width: 50%;
+        margin-left: 10px;
+    }
+
+    .footer__about {
+        margin-top: 75px;
+    }
+
+    .footer__reputation {
+        margin-top: 75px;
+        margin-left: 60px;
+    }
+
+
+    .footer__contacts {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 80px;
+        width: 200px;
+    }
+
+    .contacts__title {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .contacts_row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts__phone {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        background-image: url(../img/Call.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        padding-left: 20px;
+        margin-bottom: 18px;
+        margin-top: 16px;
+
+    }
+
+    .contacts__email {
+        color: #fff;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        background-image: url(../img/Message.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        padding-left: 20px;
+    }
+
+    .contacts__img {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+
+    .contacts__img img {
+        margin: 0px 5px;
+    }
+
+
+    .footer__right {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 72px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+    .footer__firstrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .footer__secondrow {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:1105px) {
+    .footer {
+        background-color: #111111;
+        width: 100%;
+        height: 100%;
+        margin-top: 80px;
+    }
+
+    .footer__container {
+        margin: 0 auto;
+        max-width: 940px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+    }
+
+    .footer__services {
+        margin-left: 50px;
+        margin-top: 75px;
+    }
+
+    .footer__title {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        color: #fff;
+    }
+
+    .footer__list {
+        max-width: 200px;
+    }
+
+    .footer__link {
+        padding: 5px 0px;
+    }
+
+    .footer__link a {
+        color: #B3B3B3;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+
+    }
+
+
+    .footer__notitle {
+        margin-top: 100px;
+        width: 30%;
+        margin-left: 10px;
+    }
+
+    .footer__about {
+        margin-top: 75px;
+    }
+
+    .footer__reputation {
+        margin-top: 75px;
+        margin-left: 60px;
+    }
+
+
+    .footer__contacts {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-top: 80px;
+        width: 250px;
+    }
+
+    .contacts__title {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .contacts_row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts__phone {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        background-image: url(../img/Call.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        padding-left: 20px;
+        margin-bottom: 18px;
+        margin-top: 16px;
+
+    }
+
+    .contacts__email {
+        color: #fff;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        background-image: url(../img/Message.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        padding-left: 20px;
+    }
+
+    .contacts__img {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+
+    .contacts__img img {
+        margin: 0px 5px;
+    }
+
+
+    .footer__right {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 72px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+    .footer__firstrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .footer__secondrow {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .footer {
+        background-color: #111111;
+        width: 100%;
+        height: 100%;
+        margin-top: 80px;
+    }
+
+    .footer__container {
+        margin: 0 auto;
+        max-width: 750px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+    }
+
+    .footer__services {
+        margin-left: 0px;
+        margin-top: 75px;
+        max-width: 150px;
+    }
+
+    .footer__title {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #fff;
+    }
+
+    .footer__list {
+        max-width: 200px;
+    }
+
+    .footer__link {
+        padding: 5px 0px;
+    }
+
+    .footer__link a {
+        color: #B3B3B3;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+
+    }
+
+
+    .footer__notitle {
+        margin-top: 100px;
+        width: 30%;
+        margin-left: 10px;
+    }
+
+    .footer__about {
+        margin-top: 75px;
+    }
+
+    .footer__reputation {
+        margin-top: 75px;
+        margin-left: 60px;
+    }
+
+
+    .footer__contacts {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-top: 80px;
+        width: 250px;
+    }
+
+    .contacts__title {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .contacts_row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts__phone {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        background-image: url(../img/Call.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        padding-left: 20px;
+        margin-bottom: 18px;
+        margin-top: 16px;
+
+    }
+
+    .contacts__email {
+        color: #fff;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        background-image: url(../img/Message.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        padding-left: 20px;
+    }
+
+    .contacts__img {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+
+    .contacts__img img {
+        margin: 0px 5px;
+    }
+
+
+    .footer__right {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 72px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+    .footer__firstrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .footer__secondrow {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (max-width:749px) {
+    .footer {
+        background-color: #111111;
+        width: 100%;
+        height: 100%;
+        margin-top: 80px;
+    }
+
+    .footer__container {
+        margin: 0 auto;
+        max-width: 750px;
+        display: flex;
+        flex-direction: row;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .footer__firstrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 0px;
+    }
+
+    .footer__services {
+        margin-left: 20px;
+        margin-top: 75px;
+        margin-left: 20px;
+    }
+
+    .footer__title {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        color: #fff;
+    }
+
+    .footer__list {
+        max-width: 100%;
+    }
+
+    .footer__link {
+        padding: 5px 0px;
+    }
+
+    .footer__link a {
+        color: #B3B3B3;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+
+    }
+
+
+    .footer__notitle {
+        margin-top: 110px;
+        margin-left: 0px;
+        width: 35%;
+    }
+
+
+    .footer__secondrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .footer__about {
+        margin-top: 75px;
+        margin-left: 20px;
+    }
+
+    .footer__reputation {
+        margin-top: 75px;
+        margin-right: 0px;
+        width: 35%;
+    }
+
+
+    .footer__contacts {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 80px;
+    }
+
+    .contacts__title {
+        font-size: 18px;
+        color: #fff;
+        margin-left: 20px;
+    }
+
+    .contacts_row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .contacts__phone {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        background-image: url(../img/Call.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        padding-left: 20px;
+        margin-bottom: 18px;
+        margin-top: 16px;
+        margin-left: 20px;
+    }
+
+    .contacts__email {
+        color: #fff;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        background-image: url(../img/Message.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        padding-left: 20px;
+        margin-left: 20px;
+    }
+
+    .contacts__img {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .contacts__img img {
+        margin: 0px 5px;
+    }
+
+
+    .footer__right {
+
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 72px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+
+}
+
+@media screen and (max-width:556px) {
+    .footer {
+        background-color: #111111;
+        width: 100%;
+        height: 100%;
+        margin-top: 80px;
+    }
+
+    .footer__container {
+        margin: 0 auto;
+        max-width: 375px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer__firstrow {
+        display: block;
+        flex-direction: none;
+        justify-content: none;
+        margin-left: 0px;
+    }
+
+    .footer__services {
+        margin-top: 10px;
+        margin-left: 120px;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .footer__title {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        color: #fff;
+    }
+
+
+    .footer__list {
+        max-width: 100%;
+    }
+
+    .footer__link {
+        padding: 5px 0px;
+    }
+
+    .footer__link a {
+        color: #B3B3B3;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+
+    }
+
+
+    .footer__notitle {
+        margin-top: 10px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+
+    .footer__secondrow {
+        display: block;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 0px;
+
+    }
+
+    .footer__about {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .footer__reputation {
+        margin-top: 20px;
+        margin-right: 0px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+
+    .footer__contacts {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .contacts__title {
+        font-size: 18px;
+        color: #fff;
+        margin-left: 20px;
+    }
+
+    .contacts_row {
+        display: block;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+
+    }
+
+    .contacts__phone {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        background-image: url(../img/Call.svg);
+        background-repeat: no-repeat;
+        background-position: 100px 10px;
+        padding-right: 0px;
+        margin-bottom: 18px;
+        margin-top: 16px;
+        margin-left: 0px;
+    }
+
+    .contacts__email {
+        color: #fff;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        background-image: url(../img/Message.svg);
+        background-repeat: no-repeat;
+        background-position: 100px 5px;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    .contacts__img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .contacts__img img {
+        margin: 0px 5px;
+    }
+
+
+    .footer__right {
+
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 72px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+
+}
+
+@media screen and (max-width:556px) {
+    .footer {
+        background-color: #111111;
+        width: 100%;
+        height: 100%;
+        margin-top: 80px;
+    }
+
+    .footer__container {
+        margin: 0 auto;
+        max-width: none;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer__firstrow {
+        display: block;
+        flex-direction: none;
+        justify-content: none;
+        margin-left: 0px;
+    }
+
+    .footer__services {
+        margin-top: 10px;
+        margin-left: 120px;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .footer__title {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        color: #fff;
+    }
+
+
+    .footer__list {
+        max-width: 100%;
+    }
+
+    .footer__link {
+        padding: 5px 0px;
+    }
+
+    .footer__link a {
+        color: #B3B3B3;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+
+    }
+
+
+    .footer__notitle {
+        margin-top: 10px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+
+    .footer__secondrow {
+        display: block;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 0px;
+
+    }
+
+    .footer__about {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .footer__reputation {
+        margin-top: 20px;
+        margin-right: 0px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+
+    .footer__contacts {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .contacts__title {
+        font-size: 18px;
+        color: #fff;
+        margin-left: 20px;
+    }
+
+    .contacts_row {
+        display: block;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+
+    }
+
+    .contacts__phone {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        background-image: url(../img/Call.svg);
+        background-repeat: no-repeat;
+        background-position: 100px 10px;
+        padding-right: 0px;
+        margin-bottom: 18px;
+        margin-top: 16px;
+        margin-left: 0px;
+    }
+
+    .contacts__email {
+        color: #fff;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        background-image: url(../img/Message.svg);
+        background-repeat: no-repeat;
+        background-position: 100px 5px;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    .contacts__img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .contacts__img img {
+        margin: 0px 5px;
+    }
+
+
+    .footer__right {
+
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 72px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+
+}
