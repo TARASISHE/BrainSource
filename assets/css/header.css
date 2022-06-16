@@ -1,3 +1,30 @@
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
 .header {
     width: 100%;
 }
@@ -8,7 +35,7 @@
 }
 
 .header__logo {
-    margin: 15px 110px;
+    margin: 15px 0px;
 }
 
 .header__burger {
@@ -17,6 +44,7 @@
 
 .header__menu {
     background-color: #2B88FF;
+    margin-left: 0px;
 }
 
 .heaeder__list {
@@ -24,7 +52,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 55px;
+    gap: 90px;
 }
 
 
@@ -36,21 +64,21 @@
 }
 
 .header__item:nth-child(1) {
-    background-image: url(/assets/img/arrow.svg);
+    background-image: url(../img/arrow.svg);
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 15px;
 }
 
 .header__item:nth-child(2) {
-    background-image: url(/assets/img/arrow.svg);
+    background-image: url(../img/arrow.svg);
     background-repeat: no-repeat;
     background-position: right;
-    padding-right: 15px;
+    padding-right: 15x;
 }
 
 .header__item:nth-child(3) {
-    background-image: url(/assets/img/arrow.svg);
+    background-image: url(../img/arrow.svg);
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 15px;
@@ -62,7 +90,7 @@
 }
 
 .header__item:nth-child(7) {
-    background-image: url(/assets/img/arrow.svg);
+    background-image: url(../img/arrow.svg);
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 15px;
@@ -74,9 +102,9 @@
 }
 
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
     .header {
-        width: 110%;
+        width: 120%;
     }
 
     .header__container {
@@ -84,10 +112,10 @@
         max-width: 1040px;
     }
 
-    .header__logo {}
+
 
     .header__logo img {
-        margin: 15px 20px;
+        margin: 15px 0px;
 
     }
 
@@ -105,11 +133,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 35px;
+        gap: 50px;
     }
 
     .header__logo {
-        margin: 15px 30px;
+        margin: 15px 0px;
     }
 
     .header__burger {

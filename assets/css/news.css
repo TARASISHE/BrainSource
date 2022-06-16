@@ -1,0 +1,352 @@
+@import url(../css/header.css);
+@import url(../css/footer.css);
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.content__container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+    height: 100%;
+}
+
+.content_title {
+    margin: 21px 0px 40px 0px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 151%;
+    transition: all 1s ease 0s;
+}
+
+.content_title a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 151%;
+    color: #BDBDBD;
+    transition: all 1s ease 0s;
+}
+
+.content_title:hover a {
+    color: #2A88FF;
+}
+
+.content__maintitle {
+    margin-bottom: 25px;
+}
+
+.content__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.content__publication {
+    display: flex;
+
+}
+
+.content__img {
+    width: 100%;
+    transition: all 1s ease 0s;
+}
+
+.content__img:hover {
+    transform: scale(0.9);
+}
+
+.content__article {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    width: 100%;
+    padding-left: 10px;
+    gap: 10px;
+}
+
+.content__article h5 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #AAAAAA;
+}
+
+.content__pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    ;
+}
+
+.pages__numbers {
+    border: 1px solid #BDBDBD;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    transition: all 1s ease 0s;
+}
+
+.pages__numbers img {
+    width: 10px;
+    height: 17px;
+}
+
+.pages__numbers:hover {
+    background-color: #2A88FF;
+
+}
+
+.pages__numbers:hover a {
+    color: #FFF;
+}
+
+@media screen and (max-width:1280px) {
+    .content__container {
+        margin: 0 auto;
+        max-width: 1040px;
+        width: 90%;
+        height: 100%;
+    }
+
+    .content_title {
+        margin: 21px 0px 40px 0px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 151%;
+        transition: all 1s ease 0s;
+    }
+
+    .content_title a {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 151%;
+        color: #BDBDBD;
+        transition: all 1s ease 0s;
+    }
+
+    .content_title:hover a {
+        color: #2A88FF;
+    }
+
+    .content__maintitle {
+        margin-bottom: 25px;
+    }
+
+    .content__row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    .content__publication {
+        display: flex;
+
+    }
+
+    .content__img {
+        width: 100%;
+        transition: all 1s ease 0s;
+    }
+
+    .content__img:hover {
+        transform: scale(0.9);
+    }
+
+    .content__article {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        width: 100%;
+        padding-left: 10px;
+        gap: 10px;
+    }
+
+    .content__article h5 {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        color: #AAAAAA;
+    }
+
+    .content__pages {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pages__list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        ;
+    }
+
+    .pages__numbers {
+        border: 1px solid #BDBDBD;
+        padding: 5px 10px;
+        margin: 0px 5px;
+        transition: all 1s ease 0s;
+    }
+
+    .pages__numbers img {
+        width: 10px;
+        height: 17px;
+    }
+
+    .pages__numbers:hover {
+        background-color: #2A88FF;
+
+    }
+
+    .pages__numbers:hover a {
+        color: #FFF;
+    }
+}
+
+@media screen and (max-width:1040px) {
+    .content__container {
+        margin: 0 auto;
+        max-width: 960px;
+        width: 90%;
+        height: 100%;
+    }
+
+    .content_title {
+        margin: 21px 0px 40px 0px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 151%;
+        transition: all 1s ease 0s;
+    }
+
+    .content_title a {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 151%;
+        color: #BDBDBD;
+        transition: all 1s ease 0s;
+    }
+
+    .content_title:hover a {
+        color: #2A88FF;
+    }
+
+    .content__maintitle {
+        margin-bottom: 25px;
+    }
+
+    .content__row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .content__publication {
+        display: flex;
+        margin-bottom: 30px;
+
+    }
+
+    .content__img {
+        width: 60%;
+        transition: all 1s ease 0s;
+    }
+
+    .content__img:hover {
+        transform: scale(0.9);
+    }
+
+    .content__article {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        width: 100%;
+        padding-left: 10px;
+        gap: 10px;
+    }
+
+    .content__article h5 {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        color: #AAAAAA;
+    }
+
+    .content__pages {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pages__list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .pages__numbers {
+        border: 1px solid #BDBDBD;
+        padding: 5px 10px;
+        margin: 0px 5px;
+        transition: all 1s ease 0s;
+    }
+
+    .pages__numbers img {
+        width: 10px;
+        height: 17px;
+    }
+
+    .pages__numbers:hover {
+        background-color: #2A88FF;
+
+    }
+
+    .pages__numbers:hover a {
+        color: #FFF;
+    }
+}

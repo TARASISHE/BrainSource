@@ -18,7 +18,6 @@ body {
 }
 
 
-
 li {
     list-style: none;
 }
@@ -369,7 +368,13 @@ table {
     transition: all .2s ease;
 }
 
-.news__img {}
+.news__img {
+    transition: all 1s ease 0s;
+}
+
+.news__img:hover {
+    transform: scale(0.9);
+}
 
 .news__article {
     align-items: flex-start;
@@ -433,6 +438,11 @@ table {
     cursor: pointer;
 }
 
+.test__btn:hover {
+    background-color: #fff;
+    color: #eb3d00;
+}
+
 
 @media screen and (max-width: 1280px) {
 
@@ -442,7 +452,7 @@ table {
     }
 
     .content__bigimg {
-        width: 110%;
+        width: 120%;
         height: 350px;
         background-image: url(../img/loop.jpg);
         background-repeat: no-repeat;
