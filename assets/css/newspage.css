@@ -1,0 +1,249 @@
+@import url(../css/header.css);
+@import url(../css/footer.css);
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.content__container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+    height: 100%;
+}
+
+.content_title {
+    margin: 21px 0px 40px 0px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 151%;
+    transition: all 1s ease 0s;
+}
+
+.content_title a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 151%;
+    color: #BDBDBD;
+    transition: all 1s ease 0s;
+}
+
+.content_title:hover a {
+    color: #2A88FF;
+}
+
+.content__maintitle {
+    margin-bottom: 40px;
+}
+
+.content__row {
+    display: flex;
+}
+
+.content__row img {
+    width: 100%;
+    height: 300px;
+}
+
+.content__maintext {
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B6B6B;
+}
+
+.content__maintext p {
+    margin-bottom: 30px;
+}
+
+.content__text {
+    color: #6B6B6B;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border-bottom: 1px solid #F1F1F1;
+    padding-bottom: 20px;
+}
+
+.content__text p {
+    margin-bottom: 20px;
+}
+
+
+.content__slider {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.content__sliderleft {
+    color: #6B6B6B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    background-image: url(../img/newsleft.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+    transition: all 1s ease 0s;
+}
+
+.content__sliderright {
+    color: #6B6B6B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    background-image: url(../img/newsright.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 30px;
+    transition: all 1s ease 0s;
+}
+
+.content__sliderleft:hover {
+    text-decoration: underline;
+}
+
+.content__sliderright:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 740px) {
+    .content__container {
+        margin: 0 auto;
+        max-width: none;
+        width: 90%;
+        height: 100%;
+    }
+
+    .content_title {
+        margin: 21px 0px 40px 0px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 151%;
+        transition: all 1s ease 0s;
+    }
+
+    .content_title a {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 151%;
+        color: #BDBDBD;
+        transition: all 1s ease 0s;
+    }
+
+    .content_title:hover a {
+        color: #2A88FF;
+    }
+
+    .content__maintitle {
+        margin-bottom: 40px;
+    }
+
+    .content__row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content__row img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .content__maintext {
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #6B6B6B;
+    }
+
+    .content__maintext p {
+        margin-bottom: 10px;
+    }
+
+    .content__text {
+        color: #6B6B6B;
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        border-bottom: 1px solid #F1F1F1;
+        padding-bottom: 20px;
+    }
+
+    .content__text p {
+        margin-bottom: 20px;
+    }
+
+
+    .content__slider {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .content__sliderleft {
+        color: #6B6B6B;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        background-image: url(../img/newsleft.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        padding-left: 30px;
+        transition: all 1s ease 0s;
+    }
+
+    .content__sliderright {
+        color: #6B6B6B;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        background-image: url(../img/newsright.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        padding-right: 30px;
+        transition: all 1s ease 0s;
+    }
+
+    .content__sliderleft:hover {
+        text-decoration: underline;
+    }
+
+    .content__sliderright:hover {
+        text-decoration: underline;
+    }
+}
