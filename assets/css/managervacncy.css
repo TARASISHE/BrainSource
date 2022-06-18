@@ -1,0 +1,150 @@
+@import url(../css/header.css);
+@import url(../css/footer.css);
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.content__container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+    height: 100%;
+}
+
+.content__title {
+    margin: 21px 0px 40px 0px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 151%;
+    color: #BDBDBD;
+}
+
+.content_title a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 151%;
+    color: #BDBDBD;
+}
+
+
+.content_title span {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 151%;
+
+}
+
+.content__maintitle {
+    margin-bottom: 25px;
+}
+
+.content__numbers {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin: 20px 0px 50px 0px;
+    color: #6B6B6B;
+}
+
+.content__requirements {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    margin: 20px 0px 45px 0px;
+    color: #6B6B6B;
+
+}
+
+.content__idial {
+    margin-bottom: 50px;
+}
+
+.content__idial p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.content__idial li {
+    margin: 10px 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #6B6B6B;
+}
+
+li::marker {
+    color: #2A88FF;
+}
+
+
+.content__adv {
+    list-style: none;
+}
+
+.content__adv p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.content__adv li {
+    margin: 10px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #6B6B6B;
+    background-image: url(../img/markwhite.svg);
+    background-repeat: no-repeat;
+    background-position: left 15px;
+    padding-left: 20px;
+}
+
+.content__red {
+    margin: 30px 0px;
+    color: #EB3D00;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.content__send {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #000000;
+}
+
+.content__email {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #2A88FF;
+}

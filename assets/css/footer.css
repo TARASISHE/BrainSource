@@ -9,10 +9,6 @@ a {
     text-decoration: none;
 }
 
-li {
-    list-style: none;
-}
-
 
 img {
     max-width: 100%;
@@ -54,6 +50,7 @@ table {
 
 .footer__list {
     max-width: 200px;
+    list-style: none;
 }
 
 .footer__link {
@@ -73,6 +70,7 @@ table {
     margin-top: 115px;
     width: 50%;
     margin-left: 10px;
+    list-style: none;
 }
 
 .footer__about {
