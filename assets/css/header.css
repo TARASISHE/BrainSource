@@ -48,6 +48,7 @@ table {
     justify-content: center;
     align-items: center;
     gap: 90px;
+    list-style: none;
 }
 
 
