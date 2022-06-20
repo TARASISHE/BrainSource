@@ -82,6 +82,7 @@ table {
     justify-content: space-between;
     border-left: 3px solid #eb3d00;
     padding-left: 20px;
+    margin-right: 40px;
 }
 
 .content__article h3 {

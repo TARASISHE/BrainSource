@@ -115,8 +115,12 @@ table {
 
 }
 
-.contacts__email {
+.contacts__phone a {
     color: #fff;
+    text-decoration: none;
+}
+
+.contacts__email {
     color: #fff;
     font-size: 14px;
     font-weight: 400;
@@ -126,6 +130,12 @@ table {
     background-position: left;
     padding-left: 20px;
 }
+
+.contacts__email a {
+    color: #fff;
+    text-decoration: none;
+}
+
 
 .contacts__img {
     display: flex;
